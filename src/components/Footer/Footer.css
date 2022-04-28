@@ -1,0 +1,22 @@
+.footer {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    margin-left: auto;
+    margin-right: auto
+}
+
+a {
+    cursor: pointer;
+    transition: 0.2s;
+    color: white;
+}
+
+a:hover {
+    color: #9C27B0;
+    font-weight: bold;
+    transition: 0.2s
+}

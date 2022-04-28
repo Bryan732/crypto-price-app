@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.navbar-header {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        color: white;
+    }
+}
+
+.navbar-currency {
+    display: flex;
+    flex-direction: row;
+
+    p {
+        margin: auto 10px auto 100px;
+
+        color: gray;
+        font-size: 14px;
+    }
+
+    select {
+        height: 30px;
+        width: 60px;
+        margin-top: auto;
+        margin-bottom: auto;
+        background-color: #2F3236;
+        border: none;
+        border-radius: 5px;
+    }
+}
+
+.navbar-currency-select-usd {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0 !important;
+
+    p {
+        margin-left: 0;
+    }
+
+
+    img {
+        height: 15px;
+        vertical-align: middle;
+        margin-bottom: 2px;
+        margin-right: 6px;
+    }
+
+    .currency-usd {
+        cursor: pointer;
+        color: white;
+    }
+
+    .currency-myr {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        transition: 0.3s;
+        cursor: pointer;
+
+        &:hover {
+            filter: grayscale(0%);
+            transition: 0.3s;
+            color: white;
+        }
+    }
+}
+
+.navbar-currency-select-myr {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0 !important;
+
+    p {
+        margin-left: 0;
+    }
+
+
+    img {
+        height: 15px;
+        vertical-align: middle;
+        margin-bottom: 2px;
+        margin-right: 6px;
+    }
+
+    .currency-myr {
+        cursor: pointer;
+        color: white;
+    }
+
+    .currency-usd {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        transition: 0.3s;
+        cursor: pointer;
+
+        &:hover {
+            filter: grayscale(0%);
+            transition: 0.3s;
+            color: white
+        }
+    }
+}

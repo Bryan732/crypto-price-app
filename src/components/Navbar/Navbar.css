@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.navbar-header {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar-header h1 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.navbar-currency {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.navbar-currency p {
+  margin: auto 10px auto 100px;
+  color: gray;
+  font-size: 14px;
+}
+
+.navbar-currency select {
+  height: 30px;
+  width: 60px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: #2F3236;
+  border: none;
+  border-radius: 5px;
+}
+
+.navbar-currency-select-usd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 0 !important;
+}
+
+.navbar-currency-select-usd p {
+  margin-left: 0;
+}
+
+.navbar-currency-select-usd img {
+  height: 15px;
+  vertical-align: middle;
+  margin-bottom: 2px;
+  margin-right: 6px;
+}
+
+.navbar-currency-select-usd .currency-usd {
+  cursor: pointer;
+  color: white;
+}
+
+.navbar-currency-select-usd .currency-myr {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.navbar-currency-select-usd .currency-myr:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: white;
+}
+
+.navbar-currency-select-myr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 0 !important;
+}
+
+.navbar-currency-select-myr p {
+  margin-left: 0;
+}
+
+.navbar-currency-select-myr img {
+  height: 15px;
+  vertical-align: middle;
+  margin-bottom: 2px;
+  margin-right: 6px;
+}
+
+.navbar-currency-select-myr .currency-myr {
+  cursor: pointer;
+  color: white;
+}
+
+.navbar-currency-select-myr .currency-usd {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.navbar-currency-select-myr .currency-usd:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: white;
+}
+/*# sourceMappingURL=Navbar.css.map */

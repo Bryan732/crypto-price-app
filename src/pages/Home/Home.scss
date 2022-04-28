@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+
+    .table-background-even {
+        background-color: #2E2F32;
+    }
+
+    tr {
+        th {
+            font-size: 12px;
+            color: lightgrey;
+            height: 50px;
+            vertical-align: top;
+        }
+
+        td {
+            text-align: center;
+            height: 60px;
+        }
+
+        .table-data-token {
+            display: flex;
+            align-items: center;
+            margin-top: 1px;
+            
+            font-size: 14px;
+            color: white;
+        }
+
+        .table-data-change-green {
+            color: #BCFE2F;
+        }
+
+        .table-data-change-red {
+            color: #FF4C00;
+        }
+    }
+}
+
+.pagination {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 350px;
+}

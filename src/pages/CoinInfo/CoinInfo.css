@@ -1,0 +1,57 @@
+.current-price {
+  width: 200px;
+}
+
+.change-in-24h {
+  margin-left: 40px;
+  width: 230px;
+}
+
+.change-in-24h div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.change-in-24h div p {
+  margin: 0;
+}
+
+.market-cap {
+  margin-left: 40px;
+  width: 320px;
+}
+
+.high-24h {
+  width: 220px;
+}
+
+.low-24h {
+  width: 200px;
+}
+
+.UpIcon {
+  color: #BCFE2F !important;
+  font-size: 32px;
+}
+
+.DownIcon {
+  color: #FF4C00 !important;
+  font-size: 32px;
+}
+
+a {
+  text-decoration: underline;
+}
+
+h4 {
+  color: lightgrey;
+}
+/*# sourceMappingURL=CoinInfo.css.map */
